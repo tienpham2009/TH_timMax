@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tim gia tri lon nhat trong mang</title>
+</head>
+<body>
+<script>
+    let arr = [-1, -4, -5, 0, 5, 6, 7, 2, 9]
+    let max = arr[0]
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
+            index = i;
+        }
+
+    }
+    document.write(max +' '+ 'la max voi chi so la ' + index);
+</script>
+</body>
+</html>
